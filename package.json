@@ -1,0 +1,24 @@
+{
+  "name": "stock-trading-app",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/meshulamzusha/Stock-Trading-App#readme",
+  "bugs": {
+    "url": "https://github.com/meshulamzusha/Stock-Trading-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meshulamzusha/Stock-Trading-App.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nanoid": "^5.1.6",
+    "readline-sync": "^1.4.10"
+  }
+}
