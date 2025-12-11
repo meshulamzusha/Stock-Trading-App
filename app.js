@@ -14,11 +14,6 @@ function handleUserOperationChoice() {
 
         case 2:
             const price = question('Enter the price.\n> ');
-
-            if (typeof price === 'string') {
-                console.log('Price must be a number');  
-            }
-
             const above = keyInYN('You want the stocks whose price is higher than the price you entered.');
             console.table(filterStocksByPrice(price, above));
             break;
